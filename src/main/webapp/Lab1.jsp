@@ -4,6 +4,7 @@
     Author     : Ольга
 --%>
 
+<%@page import="knu.fit.ist.ta.MyFirstJavaClass"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,6 +14,20 @@
     </head>
     <body>
         <h1>This is Lab1!</h1>
+        
+        <%! MyFirstJavaClass nFJC = new  MyFirstJavaClass(5);%>
+        
+        <%
+        int x = nFJC.getMyInt();
+        
+        x+=3; 
+        x%=3;
+        
+        %>
+        
+        <p>8mod3 = <%=x%></p>
+        
+        
         <a href="index.jsp">Home</a>
     </body>
 </html>
