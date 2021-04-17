@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>This is Lab1!</h1>
+        <h1>This is Lab1</h1>
         
         <%! MyFirstJavaClass nFJC = new  MyFirstJavaClass(5);%>
         

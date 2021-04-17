@@ -12,7 +12,8 @@
         <title>TA Start</title>
     </head>
     <body>
-        <h1>My TA labs</h1>
+        <h1>My TA labs </h1>
+        
         <p>This is paragpaph</p>
         
         <form action="Lab1.jsp">
