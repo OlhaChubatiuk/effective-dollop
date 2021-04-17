@@ -12,10 +12,11 @@
         <title>TA Start</title>
     </head>
     <body>
-        <h1>My TA labs </h1>
+        <h1>TA labs</h1>
         
-        <p>This is paragpaph</p>
-        
+        <p>Student: Chubatiuk Olha</p>
+        <p>Group: IoT_12</p>
+        <p>Press the key to see the n- lab result</p>
         <form action="Lab1.jsp">
           
             <input type="submit" value="Lab1">
