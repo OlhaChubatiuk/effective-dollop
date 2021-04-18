@@ -13,14 +13,31 @@
     </head>
     <body>
         <h1>TA labs</h1>
-        
+
         <p>Student: Chubatiuk Olha</p>
         <p>Group: IoT_12</p>
         <p>Press the key to see the n- lab result</p>
-        <form action="Lab1.jsp">
-          
-            <input type="submit" value="Lab1">
-        </form> 
-        <p><a href="Lab1.jsp"></a></p>
+        <div>
+            <form action="Lab1.jsp">
+
+                <input type="submit" value="Lab1">
+            </form> 
+        </div>
+        
+                <div>
+            <form action="Lab2form.jsp">
+
+                <input type="submit" value="Lab2">
+            </form>
+        </div>
+        
+        
+              <div>
+            <form action="Lab3form.jsp">
+
+                <input type="submit" value="Lab3">
+            </form>
+        </div>
+        
     </body>
 </html>
