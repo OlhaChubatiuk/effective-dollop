@@ -15,6 +15,7 @@
         <h1>Insert  x</h1>
         
         
+        
                 <div><form action="./Lab2" method="post">
 
                         <input type="text" name="x" placeholder="enter x as ##.###"/>

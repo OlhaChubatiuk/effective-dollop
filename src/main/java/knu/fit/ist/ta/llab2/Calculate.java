@@ -16,4 +16,5 @@ public class Calculate {
         return (float) (Math.sqrt(d*x) / (a*x*x + b*x + c));
         
     }
+    
 }

@@ -18,6 +18,7 @@ import org.springframework.web.context.support.SpringBeanAutowiringSupport;
  *
  * @author Ольга
  */
+
 @WebServlet(name = "Lab2Servlet", urlPatterns = {"/Lab2"})
 public class Lab2Servlet extends HttpServlet {
 
