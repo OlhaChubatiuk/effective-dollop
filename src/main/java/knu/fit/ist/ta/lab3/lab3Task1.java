@@ -39,6 +39,7 @@ public class lab3Task1 {
         return result;
     }
 
+    
     public static int[] prod(int[] intArray, int arrayLeng) {
         int[] newresult = new int[arrayLeng];
         
