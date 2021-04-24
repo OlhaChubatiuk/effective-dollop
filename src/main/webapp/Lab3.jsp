@@ -12,24 +12,24 @@
         <title>JSP Page</title>
     </head>
     <body>
-                <h1>Task of lab 3(task 11)</h1>
+        <h1>Task of lab 3(task 11)</h1>
         <P>Заповнити масив різних k натуральних чисел більших 10. Визначити масив чисел, елементи якого утворюються сумою квадратів цифр елементів вихідного масиву. </P>
-        
-        
-        
-        
-         <P>  Initial array: <%=request.getAttribute("resultArray")%></P>
+
+
+
+
+        <P>  Initial array: <%=request.getAttribute("resultArray")%></P>
         <P> The result of modified array: <%=request.getAttribute("result")%></P>
-        
-       
-        
-                        <div><form action="Lab3form.jsp">
+
+
+
+        <div><form action="Lab3form.jsp">
                 <input type="submit" value="New length">
             </form> 
         </div>
-        
-        
-                        <div><form action="index.jsp">
+
+
+        <div><form action="index.jsp">
                 <input type="submit" value="Home">
             </form> 
         </div>

@@ -19,13 +19,13 @@ public class lab3Task1 {
 
     public static int[] task(int arrayLeng) {
 
-        int[] result = new int[arrayLeng];
+        int[] intArray = new int[arrayLeng];
 
         for (int j = 0; j < arrayLeng; j++) {
-            result[j] = (int) (Math.random() * (100 - 10) + 10);
+            intArray[j] = (int) (Math.random() * (100 - 10) + 10);
 
         }
-        return result;
+        return intArray;
     }
 
     public static String output(int[] intArray) {
@@ -39,18 +39,14 @@ public class lab3Task1 {
         return result;
     }
 
-    
-    public static int[] prod(int[] intArray, int arrayLeng) {
-        int[] newresult = new int[arrayLeng];
-        
-        for (int i = 0; i < arrayLeng; i++) {
-          newresult[i] =  sum(intArray[i]);
+    public static int[] prod(int[] intArray) {
+        for (int i = 0; i < intArray.length; i++) {
+            intArray[i] = sum(intArray[i]);
         }
-        return newresult;
+        return intArray;
     }
-    
 
-    public static int sum(double n) {
+    public static int sum(int n) {
         int rez = 0;
         while (n > 0) {
             rez += Math.pow(n % 10, 2);
@@ -60,3 +56,12 @@ public class lab3Task1 {
     }
 
 }
+
+/*        public static int[] prod(int[] intArray) {
+    int[] newresult = new int[intArray.length];
+    
+    for (int i = 0; i < intArray.length; i++) {
+    newresult[i] =  sum(intArray[i]);
+    }
+    return newresult;
+    }*/

@@ -21,7 +21,6 @@ public class Lab3Servlet extends HttpServlet {
 
     /*  @Autowired
     Lab3View lab3view;*/
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -45,8 +44,6 @@ public class Lab3Servlet extends HttpServlet {
             throws ServletException, IOException {
 
     }
-    
-    
 
     /**
      * Handles the HTTP <code>POST</code> method.
@@ -59,17 +56,17 @@ public class Lab3Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-    
-         Lab3View lab3view = new Lab3View();
-        
+
+        Lab3View lab3view = new Lab3View();
+
         String resultArray = lab3view.showStartArray(request.getParameter("arrayLeng"));
-        
+
         request.setAttribute("resultArray", resultArray);
-        
-        String result = lab3view.showResult(request.getParameter("arrayLeng"));
-        
+
+        String result = lab3view.showResult();
+
         request.setAttribute("result", result);
-        
+
         request.getRequestDispatcher("Lab3.jsp").forward(request, response);
 
     }
@@ -85,19 +82,3 @@ public class Lab3Servlet extends HttpServlet {
     }// </editor-fold>
 
 }
-
-
-
-
-    /*
-        lab3Task1 lab3t1 = new lab3Task1();
-        int arlng = Integer.parseInt(request.getParameter("arrayLeng"));
-        int[] x = lab3t1.task(arlng);
-        
-        String output = lab3t1.output(x);
-        int[] cfn = lab3t1.prod(x, arlng);
-        
-        request.setAttribute("output", output);
-        request.setAttribute("cfn", cfn);
-        request.getRequestDispatcher("Lab3.jsp").forward(request,response);*/
-        ////////////////////////////////////////////////////////////////////

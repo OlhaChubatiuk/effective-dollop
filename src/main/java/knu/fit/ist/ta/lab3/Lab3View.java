@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Lab3View {
+    
+  private int [] startArray;
 
     public String showStartArray(String arrayLengString) {
 
@@ -26,18 +28,18 @@ public class Lab3View {
         } else if (1 < 1) {
             return "";
         } else {
-            return (lab3Task1.output(lab3Task1.task(arrayLeng)));
+            startArray = lab3Task1.task(arrayLeng);
+            return (lab3Task1.output(startArray));
 
         }
     }
 
     
-    
-    public String showResult(String arrayLengString) {
+    public String showResult() {
 
-        int arrayLeng = Integer.parseInt(arrayLengString);
+        
 
-        return (lab3Task1.output(lab3Task1.prod(lab3Task1.task(arrayLeng), arrayLeng)));
+        return (lab3Task1.output(lab3Task1.prod(startArray)));
 
     }
 

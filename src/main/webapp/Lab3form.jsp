@@ -11,18 +11,18 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
-    
+
+
     <body>
         <h1>This is Laba 3</h1>
-          <h1>Insert  the length of massiv</h1>
-        
-                <div><form action="./Lab3" method="post">
+        <h1>Insert  the length of massiv</h1>
 
-                        <input type="text" name="arrayLeng" placeholder="enter length"/>
+        <div><form action="./Lab3" method="post">
+
+                <input type="text" name="arrayLeng" placeholder="enter length"/>
                 <input type="submit" value="Ok"/>
             </form> 
         </div>
-        
+
     </body>
 </html>
