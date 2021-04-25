@@ -19,6 +19,7 @@ public class lab3Task1 {
 
     public static int[] task(int arrayLeng) {
 
+        
         int[] intArray = new int[arrayLeng];
 
         for (int j = 0; j < arrayLeng; j++) {

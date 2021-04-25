@@ -39,5 +39,12 @@
             </form>
         </div>
         
+                <div>
+            <form action="lab4form.jsp">
+                <input type="submit" value="Lab4">
+            </form>
+        </div>
+        
+        
     </body>
 </html>
