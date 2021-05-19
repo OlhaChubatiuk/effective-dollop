@@ -39,12 +39,14 @@
             </form>
         </div>
         
-                <div>
-            <form action="lab4form.jsp">
+        <div>
+            <form action="Lab4.jsp">
                 <input type="submit" value="Lab4">
             </form>
         </div>
         
+        
+
         
     </body>
 </html>
