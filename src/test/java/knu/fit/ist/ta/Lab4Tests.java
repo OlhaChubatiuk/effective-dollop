@@ -37,6 +37,7 @@ public class Lab4Tests {
         assertEquals(text.getUniqueWordsCount(), 4);
     }
 
+    
     @Test
     void testGetWordsWithoutB() {
         Text text = new Text("Hi Hiker for a now");

@@ -21,6 +21,7 @@ public class Text {
         }
     };
 
+    
     public Text(String text) {
         this.text = text;
     }
